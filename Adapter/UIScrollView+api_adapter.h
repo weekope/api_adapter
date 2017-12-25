@@ -10,4 +10,6 @@
 
 @interface UIScrollView (api_adapter)
 
+@property (nonatomic, copy) NSString *selectorString;
+
 @end
